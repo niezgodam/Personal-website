@@ -1,0 +1,10 @@
+.line{
+    clip-path: ellipse(50% 2% at 50% 46%);
+}
+
+.text-education{
+    background-image: url('../../images/silverr.jpg');
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+}

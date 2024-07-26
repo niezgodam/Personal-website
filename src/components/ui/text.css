@@ -1,0 +1,7 @@
+.text-silver{
+    background-image: url('../../images/text.jpg');
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.03px #ffffff;
+}

@@ -1,0 +1,88 @@
+.photo-1 {
+    background-image: url("../../images/prim1.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+
+.photo-2 {
+    background-image: url("../../images/agh.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+
+
+
+/* all dots panel */
+.custom-dots {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    cursor: default;
+  }
+  
+  /* custom dot style */
+  .custom-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  /* custom dot when hovering */
+  .custom-dot:hover,
+  .custom-dot:focus {
+    background-color: #6b7280; 
+  }
+  
+  /* current dot */
+  .slick-active .custom-dot {
+    background-color: #27bc8e;
+  }
+
+.slick-prev{
+    z-index: 1;
+    background-color: black; 
+    font-size: 20px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left:-60px
+  }
+  
+
+/* left arrow */
+.slick-arrow.slick-prev::before{
+  color: white;
+  font-size: 40px;
+}
+
+/* left arrow on hover */
+.slick-arrow.slick-prev:hover::before {
+  color: #27bc8e;
+  font-size: 40px;
+  animation-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+
+/* right arrow  */
+.slick-arrow.slick-next::before {
+  color: white;
+  font-size: 40px;
+}
+
+/* right arrow on hover */
+.slick-arrow.slick-next:hover::before {
+  color: #27bc8e;
+  font-size: 40px;
+  animation-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
